@@ -24,7 +24,5 @@
   env.LD_LIBRARY_PATH = "${pkgs.stdenv.cc.cc.lib}/lib";
   enterShell = ''
     echo "✅ Env Ready!"
-    echo "OpenCV: $(python -c 'import cv2; print(cv2.__version__)')"
-    echo "Numpy: $(python -c 'import numpy; print(numpy.__version__)')"
   '';
 }
