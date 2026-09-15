@@ -44,7 +44,7 @@ result-*
 *.ipynb_checkpoints
 .jupyter/
 *.ipynb
-!tugas.ipynb
+!basic.ipynb
 !notebook-template.ipynb  # kalau ada template yang mau didokumentasiin
 
 *.png
